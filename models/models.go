@@ -10,7 +10,7 @@ import (
 	settings "GIN_WEB/pkg"
 )
 
-var db *grom.DB
+var db *gorm.DB
 
 type Model struct {
 	ID         int `gorm:"primary_key" json:"id"`
