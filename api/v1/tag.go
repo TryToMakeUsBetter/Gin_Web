@@ -1,14 +1,15 @@
 package v1
 
 import (
-	"GIN_WEB/e"
-	"GIN_WEB/models"
-	settings "GIN_WEB/pkg"
-	"GIN_WEB/util"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
 	"github.com/unknwon/com"
+
+	"GIN_WEB/e"
+	"GIN_WEB/models"
+	settings "GIN_WEB/pkg"
+	"GIN_WEB/util"
 )
 
 func GetTags(c *gin.Context) {
