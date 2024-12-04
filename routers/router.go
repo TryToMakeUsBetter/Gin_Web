@@ -1,6 +1,8 @@
 package routers
 
 import (
+	"net/http"
+
 	"github.com/gin-gonic/gin"
 
 	v1 "GIN_WEB/api/v1"
@@ -21,6 +23,11 @@ func InitRouter() *gin.Engine {
 		apiv1.POST("/tags", v1.AddTag)
 		apiv1.PUT("/tags/:id", v1.EditTag)
 		apiv1.DELETE("/tags/:id", v1.DeleteTag)
+		apiv1.GET("/tests", func(c *gin.Context) {
+			c.JSON(http.StatusOK, gin.H{
+				"message": "test",
+			})
+		})
 	}
 
 	return r
