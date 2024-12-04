@@ -6,9 +6,11 @@ require github.com/gin-gonic/gin v1.10.0
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
+	github.com/astaxie/beego v1.12.3 // indirect
 	github.com/go-sql-driver/mysql v1.8.1 // indirect
 	github.com/jinzhu/gorm v1.9.16 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/shiena/ansicolor v0.0.0-20230509054315-a9deabde6e02 // indirect
 )
 
 require (

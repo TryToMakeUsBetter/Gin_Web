@@ -9,6 +9,13 @@ router.DELETE
 
 gin.H{}
 
+c *gin.Context
+
+c.Query()获取URL参数里面的值
+c.DefaultQuery支持设置一个默认值
+
+# bee/go
+
 # net/http
 ## http.Server
 ```go
@@ -41,4 +48,8 @@ unc (srv *Server) ListenAndServe() error {
 }
 ```
 
-# ORM
+# gorm
+
+## 数据库操作
+
+# com
